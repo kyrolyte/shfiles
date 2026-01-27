@@ -40,12 +40,9 @@ done
 
 echo "All bash scripts executed successfully."
 
-# Array of python script names
+# Array of python script names, add new scripts here
 PYTHON_SCRIPTS=(
-    "script-1.py"
-    "script-2.py"
-    "script-3.py"
-    "script-4.py"
+    "script.py"
 )
 
 # Execute each python script in order
