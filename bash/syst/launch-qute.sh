@@ -6,6 +6,7 @@ qutebrowser &
 sleep 2
 
 # 4. Find the qutebrowser window and force it to (0,0) and full size
+# Note: you must install `xdotool`
 WID=$(xdotool search --onlyvisible --class qutebrowser | head -n 1)
 xdotool windowmove $WID 0 0
 xdotool windowsize $WID 100% 100%
